@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌿 AI-Based Brinjal Crop Detection & Mapping in India
 
 > **Using Sentinel-2 Satellite Imagery, Google Earth Engine, and Random Forest Machine Learning**
@@ -454,3 +455,6 @@ brinjal-detection/
 ---
 
 *College Project — AI + Remote Sensing + GIS | Brinjal Detection using Sentinel-2 and Random Forest*
+=======
+# brinjal-field-detection
+>>>>>>> 4fac5377f94a04a19e3587e07bce8a221008d857
