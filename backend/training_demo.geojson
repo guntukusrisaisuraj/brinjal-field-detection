@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": "brinjal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [88.3420,22.5560],
+          [88.3450,22.5560],
+          [88.3450,22.5590],
+          [88.3420,22.5590],
+          [88.3420,22.5560]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": "other_crop"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [88.3490,22.5600],
+          [88.3520,22.5600],
+          [88.3520,22.5630],
+          [88.3490,22.5630],
+          [88.3490,22.5600]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": "bare_soil"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [88.3390,22.5650],
+          [88.3420,22.5650],
+          [88.3420,22.5680],
+          [88.3390,22.5680],
+          [88.3390,22.5650]
+        ]]
+      }
+    }
+  ]
+}

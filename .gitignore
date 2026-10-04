@@ -1,0 +1,12 @@
+backend/venv/
+backend/saved_models/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+.env
+*.log
+.pytest_cache/
+.coverage
+.vscode/
+data/*.db

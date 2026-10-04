@@ -1,0 +1,163 @@
+{
+  "type": "FeatureCollection",
+  "_comment": "DEMONSTRATION DATA ONLY — Replace with real GPS-verified ground-truth data before production use.",
+  "_disclaimer": "These polygons represent sample training areas in major brinjal-growing states of India (West Bengal, Bihar, Odisha, Karnataka, Andhra Pradesh). They are provided to demonstrate the system workflow, not as verified ground truth.",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[88.355, 22.565], [88.370, 22.565], [88.370, 22.580], [88.355, 22.580], [88.355, 22.565]]]
+      },
+      "properties": {
+        "crop_class": "brinjal",
+        "label": "DEMO: West Bengal brinjal field (Murshidabad district)",
+        "state": "West Bengal",
+        "district": "Murshidabad",
+        "season": "rabi",
+        "source": "demonstration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[88.380, 22.570], [88.395, 22.570], [88.395, 22.585], [88.380, 22.585], [88.380, 22.570]]]
+      },
+      "properties": {
+        "crop_class": "brinjal",
+        "label": "DEMO: West Bengal brinjal field 2",
+        "state": "West Bengal",
+        "season": "rabi",
+        "source": "demonstration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[85.135, 25.340], [85.150, 25.340], [85.150, 25.355], [85.135, 25.355], [85.135, 25.340]]]
+      },
+      "properties": {
+        "crop_class": "brinjal",
+        "label": "DEMO: Bihar brinjal field (Nalanda district)",
+        "state": "Bihar",
+        "district": "Nalanda",
+        "season": "rabi",
+        "source": "demonstration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[85.160, 25.360], [85.175, 25.360], [85.175, 25.375], [85.160, 25.375], [85.160, 25.360]]]
+      },
+      "properties": {
+        "crop_class": "brinjal",
+        "label": "DEMO: Bihar brinjal field 2",
+        "state": "Bihar",
+        "season": "kharif",
+        "source": "demonstration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.050, 11.020], [77.070, 11.020], [77.070, 11.040], [77.050, 11.040], [77.050, 11.020]]]
+      },
+      "properties": {
+        "crop_class": "brinjal",
+        "label": "DEMO: Karnataka brinjal field (Hosur area)",
+        "state": "Karnataka",
+        "source": "demonstration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[85.200, 25.400], [85.220, 25.400], [85.220, 25.420], [85.200, 25.420], [85.200, 25.400]]]
+      },
+      "properties": {
+        "crop_class": "other_crop",
+        "label": "DEMO: Rice paddy (Bihar)",
+        "source": "demonstration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[88.320, 22.540], [88.340, 22.540], [88.340, 22.560], [88.320, 22.560], [88.320, 22.540]]]
+      },
+      "properties": {
+        "crop_class": "other_crop",
+        "label": "DEMO: Jute field (West Bengal)",
+        "source": "demonstration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.200, 22.800], [79.220, 22.800], [79.220, 22.820], [79.200, 22.820], [79.200, 22.800]]]
+      },
+      "properties": {
+        "crop_class": "bare_soil",
+        "label": "DEMO: Fallow / bare field (Madhya Pradesh)",
+        "source": "demonstration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.190, 28.695], [77.210, 28.695], [77.210, 28.715], [77.190, 28.715], [77.190, 28.695]]]
+      },
+      "properties": {
+        "crop_class": "built_up",
+        "label": "DEMO: Urban built-up (Delhi periphery)",
+        "source": "demonstration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[76.940, 10.990], [76.960, 10.990], [76.960, 11.010], [76.940, 11.010], [76.940, 10.990]]]
+      },
+      "properties": {
+        "crop_class": "water",
+        "label": "DEMO: Water body (Tamil Nadu reservoir)",
+        "source": "demonstration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[75.800, 15.500], [75.830, 15.500], [75.830, 15.530], [75.800, 15.530], [75.800, 15.500]]]
+      },
+      "properties": {
+        "crop_class": "other_vegetation",
+        "label": "DEMO: Forest / shrubland (Karnataka)",
+        "source": "demonstration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[85.095, 20.350], [85.115, 20.350], [85.115, 20.370], [85.095, 20.370], [85.095, 20.350]]]
+      },
+      "properties": {
+        "crop_class": "brinjal",
+        "label": "DEMO: Odisha brinjal field (Khordha area)",
+        "state": "Odisha",
+        "source": "demonstration"
+      }
+    }
+  ]
+}
